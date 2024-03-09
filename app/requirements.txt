@@ -1,6 +1,5 @@
-datasets==2.17.1
-faiss-cpu==1.7.4
+bitsandbytes==0.43.0
 Flask==3.0.2
-numpy==1.25.2
+peft==0.9.0
 torch==2.1.0
 transformers==4.37.2

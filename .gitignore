@@ -1,0 +1,3 @@
+*.safetensors
+app/static/weights/README.md
+app/static/weights/adapter_config.json
