@@ -23,7 +23,7 @@ base_model = AutoModelForCausalLM.from_pretrained(
     device_map=device_map,
     quantization_config=bnb_config
 )
-llm_model = PeftModel.from_pretrained(base_model, './app/static/weights')
+llm_model = PeftModel.from_pretrained(base_model, './static/weights')
 llm_model = llm_model.merge_and_unload()
 
 # Reload tokenizer to save it
